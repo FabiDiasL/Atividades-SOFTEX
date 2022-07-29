@@ -11,7 +11,7 @@ Caso seja inserido um número de operação que não exista, o resultado deverá
 
 
 ## Atividade-calculadora-loop:
-Faça uma função calculadora que os números e as operações serão feitas pelo usuário. O código deve ficar rodando infinitamente até que o usuário escolha a opção de sair. No início, o programa mostrará a seguinte lista de operações: 1: Soma 2: Subtração 3: Multiplicação 4: Divisão 0: Sair
+Faça uma função calculadora que os números e as operações serão feitas pelo usuário. O código deve ficar rodando infinitamente até que o usuário escolha a opção de sair. No início, o programa mostrará a seguinte lista de operações: 1: Soma 2: Subtração 3: Multiplicação 4: Divisão 0: Sair.
 Digite o número para a operação correspondente e caso o usuário introduza qualquer outro, o sistema deve mostrar a mensagem “Essa opção não existe” e voltar ao menu de opções.
 Após a seleção, o sistema deve pedir para o usuário inserir o primeiro e segundo valor, um de cada. Depois precisa executar a operação e mostrar o resultado na tela. Quando o usuário escolher a opção “Sair”, o sistema irá parar.
 É necessário que o sistema mostre as opções sempre que finalizar uma operação e mostrar o resultado.
@@ -28,6 +28,6 @@ Desenvolva um código que simule uma eleição com três candidatos.
 - candidato_X => 889
 - candidato_Y => 847
 - candidato_Z => 515
-- branco => 0
+- branco => 0.
 O código deve perguntar se deseja finalizar a votação depois do voto. Caso o número do voto não corresponda a nenhum candidato ou seja branco, ele deve ser tratado como nulo. Se for inserido um texto ao invés de número, o código deve retornar uma mensagem para votar novamente.
 Quando a votação for finalizada, o código deverá mostrar o vencedor, aquele com o maior número de votos e, também, a quantidade de votos de cada candidato, os brancos e nulos.
