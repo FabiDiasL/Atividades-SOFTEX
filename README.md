@@ -31,3 +31,17 @@ Desenvolva um código que simule uma eleição com três candidatos.
 - branco => 0.
 O código deve perguntar se deseja finalizar a votação depois do voto. Caso o número do voto não corresponda a nenhum candidato ou seja branco, ele deve ser tratado como nulo. Se for inserido um texto ao invés de número, o código deve retornar uma mensagem para votar novamente.
 Quando a votação for finalizada, o código deverá mostrar o vencedor, aquele com o maior número de votos e, também, a quantidade de votos de cada candidato, os brancos e nulos.
+
+## Atividade média de alunos - arquivo csv
+Desenvolva um programa que deve ler um arquivo csv intitulado “notas_alunos.csv”. O arquivo deve ter a seguinte estrutura:
+aluno: Nome do aluno;
+nota_1: Primeira nota;
+nota_2: Segunda nota;
+faltas: Número de faltas;
+O programa lerá esse arquivo e criará duas colunas. A primeira coluna será “media”, que terá a média das duas notas do aluno. A segunda será “situacao”, com os valores: APROVADO ou REPROVADO.
+O aluno que tiver mais de 5 faltas ou possuir média menor que sete, será reprovado. O programa deverá salvar esse novo dataframe com o nome “alunos_situacao.csv”.
+Por fim, o programa deverá mostrar na tela:
+- o maior número de faltas;
+- a média geral das notas dos alunos;
+- e a maior média.
+
